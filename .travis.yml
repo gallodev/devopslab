@@ -1,7 +1,14 @@
+# Linguagem Utilizada para Desenvolver a Aplicação
 language: python
 
+# Versão que a aplicação suporta.   
 python: 
   - '3.8'
 
+# Instalação de Módulos que são necessários para a Aplicação.
 install:
   - pip install flask
+
+# Defini o script de Teste que deve rodar toda vez que o código for alterado.                                                                                                                            
+script:                                                                                                                                                                                                  
+  - python -m unittest -v test
