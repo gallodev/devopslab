@@ -20,4 +20,4 @@ deploy:
     secure: $HEROKU_API_KEY
   edge: true 
   app: 
-    master: devops-gallo
+    master: $APP
