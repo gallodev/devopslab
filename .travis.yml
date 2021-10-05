@@ -20,4 +20,5 @@ deploy:
   edge: true 
   app: $APP
 on:
-    all_branches: true
+    branch: main
+    
