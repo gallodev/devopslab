@@ -20,5 +20,5 @@ deploy:
   edge: true 
   app: $APP
 on:
-    branch: main
+  branch: continuos-deployment
     
