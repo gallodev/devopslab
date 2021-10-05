@@ -16,8 +16,8 @@ script:
 # Definir o Deploy no Heroku
 deploy:
   provider: heroku
-  api_key: 
-    secure: $HEROKU_API_KEY
+  api_key: $HEROKU_API_KEY
   edge: true 
-  app: 
-    master: $APP
+  app: $APP
+on:
+    all_branches: true
